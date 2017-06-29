@@ -1,0 +1,23 @@
+{
+  "name": "sekai-no-owari",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "serve": "node /usr/local/bin/node-v6.9.5-linux-x64/lib/node_modules/serve/bin/serve.js -p=8137 &"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngryKitten/sekai-no-owari.git"
+  },
+  "keywords": [
+    "html",
+    "css"
+  ],
+  "author": "Caleb Crawford",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AngryKitten/sekai-no-owari/issues"
+  },
+  "homepage": "https://github.com/AngryKitten/sekai-no-owari#readme"
+}
