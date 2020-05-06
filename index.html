@@ -7,6 +7,7 @@
 </head>
 
 <body>
+  <input id="disillusion" type="checkbox" class="hidden">
   <input id="theme-default-trigger" name="theme" type="radio" class="hidden" checked>
   <input id="theme-dark-trigger" name="theme" type="radio" class="hidden">
   <input id="theme-camo-trigger" name="theme" type="radio" class="hidden">
@@ -45,10 +46,10 @@
       <div id="home">
         <h1>Sekai No Owari</h1>
         <h4>"End of the world" - Japanese</h4>
-        <p>Welcome to the end of the world. This page was created to demonstrate some of the ridiculousness of UI and how there
-          are many many ways to do things. This entire page was written using only HTML and CSS. In fact, it was written
-          using exactly 2 files. Most of the functionality works by applying styles based on hidden checkboxes and radio
-          buttons. Enjoy!</p>
+        <p>This page was created to demonstrate some of the ridiculousness of UI and how there are many many ways to do things.
+          This entire page was written using only HTML and CSS.
+          Most of the functionality works by applying styles based on hidden checkboxes and radio buttons. Enjoy!</p>
+        <label id="disillusioner" for="disillusion">Disillusion Me!</label>
       </div>
     </div>
     <div id="page-2">
@@ -234,11 +235,11 @@
           <div class="slide-content">
             <label for="slides-off" class="slide-close">Close</label>
             <div class="slide-text">
-              ...Coming Soon
+              Honestly I don't see a use case for this sort of control.
             </div>
           </div>
           <label for="slide-1-trigger" class="slide-short">
-            ...Hello there
+            Hello there...
           </label>
           <label for="slide-1-trigger" class="slide-name">
             What Up
@@ -248,11 +249,11 @@
           <div class="slide-content">
             <label for="slides-off" class="slide-close">Close</label>
             <div class="slide-text">
-              ...Coming Soon
+              But hey, these look kind of cool.
             </div>
           </div>
           <label for="slide-2-trigger" class="slide-short">
-            ...Hello there
+            General Kenobi!
           </label>
           <label for="slide-2-trigger" class="slide-name">
             What Up
@@ -262,7 +263,7 @@
           <div class="slide-content">
             <label for="slides-off" class="slide-close">Close</label>
             <div class="slide-text">
-              ...Coming Soon
+              So why not have them for the fun of it.
             </div>
           </div>
           <label for="slide-3-trigger" class="slide-short">
@@ -304,7 +305,13 @@
     </div>
     <input id="information-trigger" type="checkbox" class="hidden">
     <div id="information-modal">
-      ...Coming Soon
+      <div class="modal-header-row">
+        <span class="modal-header">Information</span>
+        <label for="information-trigger" class="modal-close">+</label>
+      </div>
+      <div class="modal-body">
+        You can close this modal by either clicking outside the bounds or by clicking the 'x'.
+      </div>
     </div>
     <label id="information-trigger-activator-ninja" for="information-trigger"></label>
   </div>

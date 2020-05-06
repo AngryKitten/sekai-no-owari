@@ -1,3 +1,8 @@
+#disillusion:checked ~ .hidden,
+#disillusion:checked ~ #main .hidden {
+  display: inline-block;
+}
+
 #theme-default-trigger:checked ~ #main,
 #theme-default {
   --primary: #6D435A;
@@ -115,6 +120,33 @@ body {
   top: 20%;
 }
 
+.modal-header-row {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 16px;
+}
+
+.modal-header-row .modal-header {
+  font-weight: bold;
+}
+
+.modal-header-row .modal-close {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  font-size: 24px;
+  font-weight: bold;
+  height: 20px;
+  justify-content: center;
+  transform: rotate(45deg);
+  width: 20px;
+}
+
+.modal-body {
+  padding: 0 16px;
+}
+
 #information-trigger-activator-ninja {
   background-color: black;
   opacity: 0;
@@ -213,6 +245,13 @@ body {
 
 #home p {
   margin: 0;
+}
+
+#home #disillusioner {
+  color: var(--secondary);
+  cursor: pointer;
+  display: inline-block;
+  margin: 8px auto;
 }
 
 #articles {
@@ -532,6 +571,7 @@ body {
 
 #themes {
   align-items: stretch;
+  cursor: pointer;
   display: flex;
 }
 
