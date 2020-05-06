@@ -1,11 +1,8 @@
 {
   "name": "sekai-no-owari",
   "version": "1.0.0",
-  "description": "",
+  "description": "A page with the sole goal of showing goofy UI trollery.",
   "main": "index.html",
-  "scripts": {
-    "serve": "node /usr/local/bin/node-v6.9.5-linux-x64/lib/node_modules/serve/bin/serve.js -p=8137 &"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AngryKitten/sekai-no-owari.git"
